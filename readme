@@ -1,0 +1,5 @@
+Renderer - 12/17/2017 Leo Stone (updated 08/24/2018)
+---------------------
+A simple 3D renderer built using C++, GLEW, SDL2, GTK, and stb_image. Loads a given OBJ model and texture, and renders it with basic diffuse lighting.
+
+Note that the OBJ loader will not work correctly if the given model doesn't have UV coordinates.

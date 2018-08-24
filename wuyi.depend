@@ -1,0 +1,494 @@
+# depslib dependency file v1.0
+1514668335 source:/home/varenka/Documents/wuyi/main.cpp
+	<iostream>
+	"launcher.h"
+	"game.h"
+	"meshrenderer.h"
+	"diffuseshader.h"
+	"objloader.h"
+	"timer.h"
+	"generate.h"
+	"loadingscreen.h"
+
+1514661628 source:/home/varenka/Documents/wuyi/launcher.cpp
+	"launcher.h"
+
+1514661006 /home/varenka/Documents/wuyi/launcher.h
+	<gtk/gtk.h>
+	<string>
+	<iostream>
+	<unistd.h>
+	<sys/types.h>
+	<pwd.h>
+
+1512864773 source:/home/varenka/Documents/wuyi/window.cpp
+	"window.h"
+
+1511734344 /home/varenka/Documents/wuyi/window.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<iostream>
+	<string>
+
+1514665469 source:/home/varenka/Documents/wuyi/game.cpp
+	"game.h"
+
+1514664423 /home/varenka/Documents/wuyi/game.h
+	"window.h"
+	"meshrenderer.h"
+	"diffuseshader.h"
+	"framebuffershader.h"
+	"freelookcamera.h"
+	"common.h"
+	<vector>
+
+1511833472 source:/home/varenka/Documents/wuyi/shader.cpp
+	"shader.h"
+
+1511842450 /home/varenka/Documents/wuyi/shader.h
+	<GL/glew.h>
+	<fstream>
+	<iostream>
+	<string>
+	"transform.h"
+
+1511844685 /home/varenka/Documents/wuyi/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/quaternion.hpp>
+	<glm/gtx/quaternion.hpp>
+	"engine_constants.h"
+	"extra_operators.h"
+	<vector>
+
+1512873837 /home/varenka/Documents/wuyi/engine_constants.h
+	<iostream>
+	<glm/glm.hpp>
+
+1511842297 /home/varenka/Documents/wuyi/extra_operators.h
+	<glm/glm.hpp>
+	<iostream>
+	<vector>
+
+1510886682 source:/home/varenka/Documents/wuyi/mesh.cpp
+	"mesh.h"
+
+1507772788 /home/varenka/Documents/wuyi/mesh.h
+	"meshdata.h"
+	<GL/glew.h>
+
+1511842348 /home/varenka/Documents/wuyi/meshdata.h
+	"vertex.h"
+	"extra_operators.h"
+	<iostream>
+	<vector>
+	<GL/glew.h>
+
+1497906422 /home/varenka/Documents/wuyi/vertex.h
+	<glm/glm.hpp>
+
+1504571104 source:/home/varenka/Documents/wuyi/entity.cpp
+	"entity.h"
+
+1504571022 /home/varenka/Documents/wuyi/entity.h
+	"component.h"
+	"transform.h"
+	<vector>
+
+1504571085 /home/varenka/Documents/wuyi/component.h
+
+1505683939 source:/home/varenka/Documents/wuyi/meshdata.cpp
+	"meshdata.h"
+
+1507242129 source:/home/varenka/Documents/wuyi/diffuseshader.cpp
+	"diffuseshader.h"
+
+1507242113 /home/varenka/Documents/wuyi/diffuseshader.h
+	"shader.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+
+1504820331 /home/varenka/Documents/wuyi/light.h
+	<glm/glm.hpp>
+
+1511842262 /home/varenka/Documents/wuyi/camera.h
+	<iostream>
+	"transform.h"
+	"extra_operators.h"
+
+1511842320 /home/varenka/Documents/wuyi/material.h
+	<glm/glm.hpp>
+	<iostream>
+
+1504662109 source:/home/varenka/Documents/wuyi/framebuffershader.cpp
+	"framebuffershader.h"
+
+1514668652 /home/varenka/Documents/wuyi/framebuffershader.h
+	"shader.h"
+
+1507394146 source:/home/varenka/Documents/wuyi/objloader.cpp
+	"objloader.h"
+
+1511842436 /home/varenka/Documents/wuyi/objloader.h
+	"meshdata.h"
+	<fstream>
+	<sstream>
+	<string>
+
+1507261392 source:/home/varenka/Documents/wuyi/unlitshader.cpp
+	"unlitshader.h"
+
+1507260110 /home/varenka/Documents/wuyi/unlitshader.h
+	"shader.h"
+	"camera.h"
+
+1497906428 source:/home/varenka/Documents/wuyi/vertex.cpp
+	"vertex.h"
+
+1512277363 source:/home/varenka/Documents/wuyi/meshrenderer.cpp
+	"meshrenderer.h"
+
+1512278095 /home/varenka/Documents/wuyi/meshrenderer.h
+	"unlitshader.h"
+	"mesh.h"
+	"texture.h"
+	"camera.h"
+	"transform.h"
+
+1511842374 /home/varenka/Documents/wuyi/texture.h
+	<GL/glew.h>
+	<iostream>
+	<string>
+	"lib/stb_image.h"
+
+1494435952 /home/varenka/Documents/wuyi/lib/stb_image.h
+	<stdio.h>
+
+1511835207 source:/home/varenka/Documents/wuyi/texture.cpp
+	"texture.h"
+
+1511842607 source:/home/varenka/Documents/wuyi/lib/stb_image.cpp
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1512320798 source:/home/varenka/Documents/wuyi/timer.cpp
+	"timer.h"
+
+1512320770 /home/varenka/Documents/wuyi/timer.h
+	<chrono>
+
+1512171686 source:/home/varenka/Documents/wuyi/physicsobject.cpp
+	"physicsobject.h"
+
+1512171771 /home/varenka/Documents/wuyi/physicsobject.h
+	"collider.h"
+
+1512169279 /home/varenka/Documents/wuyi/collider.h
+	<glm/glm.hpp>
+
+1512166125 source:/home/varenka/Documents/wuyi/collider.cpp
+	"collider.h"
+
+1512161989 source:/home/varenka/Documents/wuyi/physicsengine.cpp
+	"physicsengine.h"
+
+1512161922 /home/varenka/Documents/wuyi/physicsengine.h
+	<vector>
+	"physicsobject.h"
+
+1512850033 source:/home/varenka/Documents/wuyi/prng.cpp
+	"prng.h"
+
+1514667969 /home/varenka/Documents/wuyi/prng.h
+	<iostream>
+
+1514668080 source:/home/varenka/Documents/wuyi/generate.cpp
+	"generate.h"
+
+1512865763 /home/varenka/Documents/wuyi/generate.h
+	"meshdata.h"
+	"prng.h"
+	"worldgen_constants.h"
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/transform.hpp>
+
+1514667648 source:/home/varenka/Documents/wuyi/freelookcamera.cpp
+	"freelookcamera.h"
+
+1512861990 /home/varenka/Documents/wuyi/freelookcamera.h
+	"camera.h"
+	<SDL2/SDL.h>
+	"engine_constants.h"
+
+1512864956 /home/varenka/Documents/wuyi/worldgen_constants.h
+	<glm/glm.hpp>
+
+1512873418 /home/varenka/Documents/wuyi/common.h
+	"engine_constants.h"
+
+1512873418 source:/home/varenka/Documents/wuyi/common.cpp
+	"common.h"
+
+1514316223 source:/home/varenka/Documents/wuyi/loadingscreen.cpp
+	"loadingscreen.h"
+
+1514316019 /home/varenka/Documents/wuyi/loadingscreen.h
+	"uishader.h"
+
+1514315062 /home/varenka/Documents/wuyi/uishader.h
+	"shader.h"
+
+1514315425 source:/home/varenka/Documents/wuyi/uishader.cpp
+	"uishader.h"
+
+1535131431 source:/home/varenka/Documents/renderer/collider.cpp
+	"collider.h"
+
+1535132820 /home/varenka/Documents/renderer/collider.h
+	<glm/glm.hpp>
+
+1535136917 source:/home/varenka/Documents/renderer/common.cpp
+	"common.h"
+
+1535143704 /home/varenka/Documents/renderer/common.h
+	"engine_constants.h"
+
+1535144622 /home/varenka/Documents/renderer/engine_constants.h
+	<iostream>
+	<glm/glm.hpp>
+
+1535150741 source:/home/varenka/Documents/renderer/diffuseshader.cpp
+	"diffuseshader.h"
+
+1535150123 /home/varenka/Documents/renderer/diffuseshader.h
+	"shader.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+
+1535150620 /home/varenka/Documents/renderer/shader.h
+	<GL/glew.h>
+	<fstream>
+	<iostream>
+	<string>
+	"transform.h"
+
+1535151233 /home/varenka/Documents/renderer/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/quaternion.hpp>
+	<glm/gtx/quaternion.hpp>
+	"engine_constants.h"
+	"extra_operators.h"
+	<vector>
+
+1535144778 /home/varenka/Documents/renderer/extra_operators.h
+	<glm/glm.hpp>
+	<iostream>
+	<vector>
+
+1535145178 /home/varenka/Documents/renderer/light.h
+	<glm/glm.hpp>
+
+1535150022 /home/varenka/Documents/renderer/camera.h
+	<iostream>
+	"transform.h"
+	"extra_operators.h"
+
+1535145195 /home/varenka/Documents/renderer/material.h
+	<glm/glm.hpp>
+	<iostream>
+
+1535150182 source:/home/varenka/Documents/renderer/entity.cpp
+	"entity.h"
+
+1535150181 /home/varenka/Documents/renderer/entity.h
+	"component.h"
+	"transform.h"
+	<vector>
+
+1535131431 /home/varenka/Documents/renderer/component.h
+
+1535150620 source:/home/varenka/Documents/renderer/framebuffershader.cpp
+	"framebuffershader.h"
+
+1535150123 /home/varenka/Documents/renderer/framebuffershader.h
+	"shader.h"
+
+1535150001 source:/home/varenka/Documents/renderer/freelookcamera.cpp
+	"freelookcamera.h"
+
+1535144970 /home/varenka/Documents/renderer/freelookcamera.h
+	"camera.h"
+	<SDL2/SDL.h>
+	"engine_constants.h"
+
+1535152471 source:/home/varenka/Documents/renderer/game.cpp
+	"game.h"
+
+1535145066 /home/varenka/Documents/renderer/game.h
+	"window.h"
+	"meshrenderer.h"
+	"diffuseshader.h"
+	"framebuffershader.h"
+	"freelookcamera.h"
+	"common.h"
+	<vector>
+
+1535148834 /home/varenka/Documents/renderer/window.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<iostream>
+	<string>
+
+1535150239 /home/varenka/Documents/renderer/meshrenderer.h
+	"unlitshader.h"
+	"mesh.h"
+	"texture.h"
+	"camera.h"
+	"transform.h"
+
+1535150123 /home/varenka/Documents/renderer/unlitshader.h
+	"shader.h"
+	"camera.h"
+
+1535150313 /home/varenka/Documents/renderer/mesh.h
+	"meshdata.h"
+	<GL/glew.h>
+
+1535150313 /home/varenka/Documents/renderer/meshdata.h
+	"vertex.h"
+	"extra_operators.h"
+	<iostream>
+	<vector>
+	<GL/glew.h>
+
+1535151357 /home/varenka/Documents/renderer/vertex.h
+	<glm/glm.hpp>
+
+1535150716 /home/varenka/Documents/renderer/texture.h
+	<GL/glew.h>
+	<iostream>
+	<string>
+	"lib/stb_image.h"
+
+1535131431 /home/varenka/Documents/renderer/lib/stb_image.h
+	<stdio.h>
+
+1535131431 source:/home/varenka/Documents/renderer/generate.cpp
+	"generate.h"
+
+1535131600 /home/varenka/Documents/renderer/generate.h
+	"meshdata.h"
+	"prng.h"
+	"worldgen_constants.h"
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/transform.hpp>
+
+1535131431 /home/varenka/Documents/renderer/prng.h
+	<iostream>
+
+1535131431 /home/varenka/Documents/renderer/worldgen_constants.h
+	<glm/glm.hpp>
+
+1535152439 source:/home/varenka/Documents/renderer/launcher.cpp
+	"launcher.h"
+
+1535151858 /home/varenka/Documents/renderer/launcher.h
+	<gtk/gtk.h>
+	<string>
+	<iostream>
+
+1535131431 source:/home/varenka/Documents/renderer/lib/stb_image.cpp
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1535131431 source:/home/varenka/Documents/renderer/loadingscreen.cpp
+	"loadingscreen.h"
+
+1535131431 /home/varenka/Documents/renderer/loadingscreen.h
+	"uishader.h"
+
+1535131431 /home/varenka/Documents/renderer/uishader.h
+	"shader.h"
+
+1535152202 source:/home/varenka/Documents/renderer/main.cpp
+	<iostream>
+	"launcher.h"
+	"game.h"
+	"meshrenderer.h"
+	"diffuseshader.h"
+	"objloader.h"
+	"timer.h"
+
+1535150373 /home/varenka/Documents/renderer/objloader.h
+	"meshdata.h"
+	<fstream>
+	<sstream>
+	<string>
+
+1535148164 /home/varenka/Documents/renderer/timer.h
+	<chrono>
+
+1535151356 source:/home/varenka/Documents/renderer/mesh.cpp
+	"mesh.h"
+
+1535151356 source:/home/varenka/Documents/renderer/meshdata.cpp
+	"meshdata.h"
+
+1535131431 source:/home/varenka/Documents/renderer/meshrenderer.cpp
+	"meshrenderer.h"
+
+1535150374 source:/home/varenka/Documents/renderer/objloader.cpp
+	"objloader.h"
+
+1535135986 source:/home/varenka/Documents/renderer/physicsengine.cpp
+	"physicsengine.h"
+
+1535131431 /home/varenka/Documents/renderer/physicsengine.h
+	<vector>
+	"physicsobject.h"
+
+1535131431 /home/varenka/Documents/renderer/physicsobject.h
+	"collider.h"
+
+1535131431 source:/home/varenka/Documents/renderer/physicsobject.cpp
+	"physicsobject.h"
+
+1535131431 source:/home/varenka/Documents/renderer/prng.cpp
+	"prng.h"
+
+1535150650 source:/home/varenka/Documents/renderer/shader.cpp
+	"shader.h"
+
+1535150695 source:/home/varenka/Documents/renderer/texture.cpp
+	"texture.h"
+
+1535131431 source:/home/varenka/Documents/renderer/timer.cpp
+	"timer.h"
+
+1535131431 source:/home/varenka/Documents/renderer/uishader.cpp
+	"uishader.h"
+
+1535150741 source:/home/varenka/Documents/renderer/unlitshader.cpp
+	"unlitshader.h"
+
+1535136966 source:/home/varenka/Documents/renderer/vertex.cpp
+	"vertex.h"
+
+1535131431 source:/home/varenka/Documents/renderer/window.cpp
+	"window.h"
+
